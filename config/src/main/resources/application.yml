@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: registry
+    hostname: 127.0.0.1
     prefer-ip-address: true
     metadata-map:
       user.name: ${security.user.name}
