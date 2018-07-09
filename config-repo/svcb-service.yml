@@ -3,9 +3,19 @@ server:
   
 msg: Hello
 
+management:
+  security:
+    enabled: false
+  context-path: /mgmt
+
 eureka:
   instance:
+    hostname: 127.0.0.1
+    prefer-ip-address: true
+    health-check-url-path: /health
+    status-page-url-path: /info
     metadata-map:
+      management.context-path: ${server.context-path}${management.context-path}
       user.name: ${security.user.name}
       user.password: ${security.user.password}
 
