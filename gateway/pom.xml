@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>cn.zhangxd</groupId>
+        <groupId>com.niot</groupId>
         <artifactId>spring-boot-cloud</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
@@ -69,10 +69,10 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-            <plugin>
+            <!--<plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 

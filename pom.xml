@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.zhangxd</groupId>
+    <groupId>com.niot</groupId>
     <artifactId>spring-boot-cloud</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -100,7 +100,7 @@
                         </execution>
                     </executions>
                 </plugin>
-                <plugin>
+                <!--<plugin>
                     <groupId>com.spotify</groupId>
                     <artifactId>docker-maven-plugin</artifactId>
                     <version>${docker.plugin.version}</version>
@@ -123,7 +123,7 @@
                             </resource>
                         </resources>
                     </configuration>
-                </plugin>
+                </plugin>-->
             </plugins>
         </pluginManagement>
     </build>
